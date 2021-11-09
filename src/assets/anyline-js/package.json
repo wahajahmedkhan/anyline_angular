@@ -1,0 +1,65 @@
+{
+  "_from": "@anyline/anyline-js",
+  "_id": "@anyline/anyline-js@34.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-8OyuSOj/m8mdK75l1qe+WUyNr5j+rD0KTXGUudlp0v2CGFaqmSFt+yz5xzHBTuZvJgb7fLCmOTrCB4qAG0o73A==",
+  "_location": "/@anyline/anyline-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@anyline/anyline-js",
+    "name": "@anyline/anyline-js",
+    "escapedName": "@anyline%2fanyline-js",
+    "scope": "@anyline",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@anyline/anyline-js/-/anyline-js-34.0.0.tgz",
+  "_shasum": "d59772cd9096364885a1b1294f4a3b56fb8ec8c0",
+  "_spec": "@anyline/anyline-js",
+  "_where": "/Users/wahajahmedkhan/Desktop/autoleap/anyline",
+  "author": {
+    "name": "Matthias Klan",
+    "email": "matthias.klan@anyline.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Anyline/anyline-ocr-anylinejs-module/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "David Dengg",
+      "email": "david.dengg@anyline.com"
+    }
+  ],
+  "deprecated": false,
+  "description": "anyline sdk in the browser",
+  "homepage": "https://github.com/Anyline/anyline-ocr-anylinejs-module#readme",
+  "keywords": [
+    "ocr",
+    "anyline",
+    "wasm",
+    "vision",
+    "scanner",
+    "reader"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "anyline.js",
+  "name": "@anyline/anyline-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyline/anyline-ocr-anylinejs-module.git"
+  },
+  "scripts": {
+    "demo": "npx http-server --port 8080 -o /demo",
+    "demo:network": "npx http-server -S -C demo/cert/cert.pem -K demo/cert/key.pem --port 8443 -o /demo"
+  },
+  "types": "./types/src/Anyline-JS/index.d.ts",
+  "version": "34.0.0"
+}
